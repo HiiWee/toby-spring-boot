@@ -1,6 +1,6 @@
 package tobyspring.helloboot;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 import org.springframework.boot.SpringApplication;
 import org.springframework.jdbc.core.JdbcTemplate;
 import tobyspring.config.MySpringBootApplication;
