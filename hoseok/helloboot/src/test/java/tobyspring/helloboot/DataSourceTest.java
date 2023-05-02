@@ -5,9 +5,11 @@ import java.sql.SQLException;
 import javax.sql.DataSource;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.jdbc.JdbcTest;
 
 
-@HellobootTest
+// @JdvcTest를 사용하면 자동으로 임베디드 DB로 변경하여 테스트를 진행한다.
+@JdbcTest
 public class DataSourceTest {
 
     @Autowired
